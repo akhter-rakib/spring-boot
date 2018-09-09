@@ -47,4 +47,14 @@ public class Student {
     public void setRoll(String roll) {
         this.roll = roll;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentInfo=" + studentInfo +
+                ", name='" + name + '\'' +
+                ", roll='" + roll + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
